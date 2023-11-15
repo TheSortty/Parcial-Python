@@ -18,7 +18,7 @@
 > ### Cómo correrlo
 * **Enlace para clonar el repositorio**
     
-    * https://github.com/Octavio1993/mutantesProgramacion.git
+    * https://github.com/TheSortty/Parcial-Python
 
 * Ingresar al directorio del proyecto y ejecutar el programa (VSCode):
 ``` bash
