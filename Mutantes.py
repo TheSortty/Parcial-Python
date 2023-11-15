@@ -12,7 +12,7 @@ def esMutante(dna):
                 contadorDeCoincidencia += 1
             if dna[i][5-j] == dna[i+1][4-j] == dna[i+2][3-j] == dna[i+3][2-j]:
                 contadorDeCoincidencia += 1
-    return "El adn es de un mutante" if contadorDeCoincidencia > 1 else "El adn es de una persona normal"
+    return "UN MUTANTE D: (ADN mutante)" if contadorDeCoincidencia > 1 else "Todo correcto, persona normal!"
 
 dna = []
 for i in range(6):
@@ -22,5 +22,5 @@ for i in range(6):
             dna.append(cadena)
             break
         else:
-            print("Secuencia inválida. Por favor, ingrese una secuencia de 6 caracteres con las letras A, T, G, C.")
+            print("SECUENCIA INVALIDA. !Ingrese una secuencia de 6 caracteres con las letras A, T, G, C. :D")
 print(esMutante(dna))
